@@ -1,0 +1,26 @@
+host_list = [
+    "api.vungle.com",
+    "adashbc.ut.taobao.com",
+    "req.startappservice.com",
+    "api1.zongheng.com",
+    "collectionpv.che168.com",
+    "msg.qy.net",
+    "api2.branch.io",
+    "aa.tangdou.com",
+    "click.btime.com",
+    "r.inews.qq.com",
+    "ads.mopub.com",
+    "ad.cread.com",
+    "report.meituan.com",
+    "druidv6.if.qidian.com",
+    "api.branch.io",
+    "log1.cmpassport.com",
+    "service.winbaoxian.com",
+    "www.lingeye.com",
+    "rl.go2yd.com",
+    "mi.gdt.qq.com"
+]
+
+device_info_ = [1497, 0, 732, 612, 0, 410, 292, 555, 0, 248, 500, 466, 178, 397, 196, 191, 377, 0, 0, 371]
+location_info_ = [0, 0, 0, 0, 0, 0, 0, 0, 88, 31, 0, 0, 116, 0, 0, 0, 0, 0, 0, 0]
+network_info_ = [0, 1030, 91, 0, 603, 190, 305, 0, 455, 241, 0, 0, 121, 0, 196, 190, 0, 374, 373, 0]

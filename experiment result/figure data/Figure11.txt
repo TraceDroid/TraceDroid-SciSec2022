@@ -1,0 +1,26 @@
+library_list = [
+    "com.vungle.publisher",
+    "com.startapp.android",
+    "com.umeng.common",
+    "com.qq.e",
+    "org.qiyi.net",
+    "com.bytedance.sdk",
+    "com.networkbench.agent",
+    "com.tencent.renews",
+    "com.hoge.android",
+    "com.umeng.umzid",
+    "com.alibaba.mtl",
+    "cz.msebera.android",
+    "com.google.firebase",
+    "com.mopub.volley",
+    "com.tuan800.zhe800",
+    "cn.com.modernmedia",
+    "com.cmic.sso",
+    "com.meituan.metrics",
+    "com.zol.android",
+    "com.newshunt.app",
+]
+
+device_info_ = [1482, 882, 523, 588, 486, 407, 381, 261, 0, 272, 69, 456, 290, 335, 358, 345, 156, 101, 228, 201]
+location_info_ = [0, 0, 79, 2, 22, 9, 2, 41, 516, 219, 3, 0, 0, 0, 2, 6, 5, 90, 0, 0]
+network_info_ = [0, 70, 140, 90, 151, 162, 169, 235, 13, 18, 410, 0, 147, 77, 12, 0, 146, 85, 0, 0]

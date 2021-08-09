@@ -1,0 +1,17 @@
+{'source': 'com.appsflyer.AppsFlyerLibCore', 'target': 'flurry.com', 'value': 321.0}
+{'source': 'com.appsflyer.AppsFlyerLibCore', 'target': 'appsflyer.com', 'value': 654.0}
+{'source': 'com.amap.api', 'target': 'amap.com', 'value': 933.0}
+{'source': 'com.tencent.bugly', 'target': 'qq.com', 'value': 1127.0}
+{'source': 'com.umeng.commonsdk', 'target': 'umeng.com', 'value': 1109.0}
+{'source': 'com.umeng.commonsdk', 'target': 'qq.com', 'value': 359.0}
+{'source': 'com.umeng.commonsdk', 'target': 'uc.cn', 'value': 115.0}
+{'source': 'com.bytedance.sdk', 'target': 'pglstatp-toutiao.com', 'value': 2227.0}
+{'source': 'com.bytedance.sdk', 'target': 'snssdk.com', 'value': 1017.0}
+{'source': 'com.vungle.publisher', 'target': 'flurry.com', 'value': 456.0}
+{'source': 'com.vungle.publisher', 'target': 'vungle.com', 'value': 1493.0}
+{'source': 'com.qq.e', 'target': 'qq.com', 'value': 3756.0}
+{'source': 'com.qq.e', 'target': 'ugdtimg.com', 'value': 507.5}
+{'source': 'com.uc.crashsdk', 'target': 'uc.cn', 'value': 236.0}
+{'source': 'com.uc.crashsdk', 'target': 'umeng.com', 'value': 226.0}
+{'source': 'com.uc.crashsdk', 'target': 'snssdk.com', 'value': 95.0}
+{'source': 'com.uc.crashsdk', 'target': 'qq.com', 'value': 130.0}]
