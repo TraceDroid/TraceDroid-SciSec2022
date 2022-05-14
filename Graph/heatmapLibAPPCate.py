@@ -50,17 +50,17 @@ print(len(host_cate_list))
 def get_db_connection(database_name) -> pymysql.Connection:
     host = "cdb-faqfehvo.bj.tencentcdb.com"
     port = 10172
-    user = "root"
+    user = "*"
     password = "chj901002"
     db_connection = pymysql.connect(host=host, port=port, user=user, password=password, database=database_name)
     return db_connection
 
 
 def get_db_connection2(database_name) -> pymysql.Connection:
-    host = "10.10.103.147"
+    host = "*"
     port = 3306
-    user = "root"
-    password = "iiewlz666"
+    user = "*"
+    password = "*"
     db_connection = pymysql.connect(host=host, port=port, user=user, password=password, database=database_name)
     return db_connection
 

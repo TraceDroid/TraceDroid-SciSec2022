@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time : 2021/5/22 17:32
-# @Author : *
-# @Site :
-# @File : LibAnalyse.py
-# @Software: PyCharm
 import csv
 import logging.config
 import logging.handlers

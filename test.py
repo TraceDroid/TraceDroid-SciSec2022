@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# encoding: utf-8
-
-
 import DynamicGetUIXml as DGX
 
 if __name__ == '__main__':

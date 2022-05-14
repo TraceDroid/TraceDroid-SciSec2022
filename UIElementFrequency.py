@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# encoding: utf-8
-
-
 import xml.etree.ElementTree as ET
 import glob
 import os

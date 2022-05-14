@@ -1,18 +1,12 @@
-# -*- coding: utf-8 -*-
-# @Time : 2021/6/4 16:29 
-# @Author : *
-# @File : MergeHTTP.py 
-# @Software: PyCharm
 import time
-
 import pymysql
 
 
 def get_db_connection(database_name) -> pymysql.Connection:
-    host = "10.10.103.147"
+    host = "*"
     port = 3306
-    user = "root"
-    password = "iiewlz666"
+    user = "*"
+    password = "*"
     db_connection = pymysql.connect(host=host, port=port, user=user, password=password, database=database_name)
     return db_connection
 
@@ -20,7 +14,7 @@ def get_db_connection(database_name) -> pymysql.Connection:
 if __name__ == '__main__':
     # db_connection1 = get_db_connection("APKDB")
     # db_connection2 = get_db_connection("APKDB2")
-    db_connection1 = get_db_connection("APK_BlcDing")
+    db_connection1 = get_db_connection("APKDB")
     db_connection2 = get_db_connection("APKDB_BlcDing2")
     db_cursor1 = db_connection1.cursor(pymysql.cursors.DictCursor)
     db_cursor2 = db_connection2.cursor(pymysql.cursors.DictCursor)

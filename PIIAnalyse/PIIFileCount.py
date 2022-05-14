@@ -15,10 +15,10 @@ json = re.compile(r".*{.*:.*}.*")
 privacy = re.compile(r'8BSX1EQGX|8A2X0KKKF|358123091482602|990012001490561|3C:28:6D:E9:EF:1|android_id|androidid|AndroidID|2028.*1080|1080.*2080|2160.*1080|1080.*2060|manufacturer|idfa=|"idfa"|imsi=|"imsi"|bid.*cid.*nid.*sid|116\.23.*39\.95|39\.95.*116\.23|%E5%8C%97%E4%BA%AC|NETGEAR67|TP-LINK_3F66|WIN-N1USSIJ01UP.*2755|DESKTOP-LP51G8E.*2199|HONOR-10F78E|192\.168\.[0-9]+\.[0-9]+|52:e0:85:c0:2d:e4|b6:6d:83:11:fa:30')
 
 def get_db_connection(database_name) -> pymysql.Connection:
-    host = "10.10.103.147"
+    host = "*"
     port = 3306
-    user = "root"
-    password = "iiewlz666"
+    user = "*"
+    password = "*"
     db_connection = pymysql.connect(host=host, port=port, user=user, password=password, database=database_name)
     return db_connection
 

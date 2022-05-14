@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time :  16:40
-# @Author : *
-# @Site :
-# @File : main.py
-# @Software: PyCharm
 import csv
 import logging.config
 import logging.handlers

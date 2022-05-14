@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# encoding: utf-8
-
-
-
 def getElementDictionary(EleTup1, EleTup2):
     ElementArr = mergeTuple(EleTup1, EleTup2)
     ElementDict = {}

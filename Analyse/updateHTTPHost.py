@@ -1,4 +1,4 @@
-import pymysql  # pip install pymysql
+import pymysql
 
 
 def get_db_connection() -> pymysql.Connection:
@@ -6,10 +6,10 @@ def get_db_connection() -> pymysql.Connection:
 
     :return: 数据库连接
     """
-    host = "10.10.103.147"
+    host = "*"
     port = 3306
-    user = "root"
-    password = "iiewlz666"
+    user = "*"
+    password = "*"
     database = "APKDB"
     db_connection = pymysql.connect(host=host, port=port, user=user, password=password, database=database)
     return db_connection

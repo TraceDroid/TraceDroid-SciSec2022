@@ -5,10 +5,10 @@ import urllib.parse
 
 
 def get_db_connection(database_name) -> pymysql.Connection:
-    host = "10.10.103.147"
+    host = "*"
     port = 3306
-    user = "root"
-    password = "iiewlz666"
+    user = "*"
+    password = "*"
     db_connection = pymysql.connect(host=host, port=port, user=user, password=password, database=database_name)
     return db_connection
 
@@ -63,7 +63,7 @@ def insert_HTTP_urldecoded(db_connection, http_message_list):
     db_cursor = db_connection.cursor(pymysql.cursors.DictCursor)
 
     try:
-        insert_sql = "INSERT INTO APK_BlcDing.HTTP_urldecoded (id, packageName, srcAddr, srcPort, dstAddr, dstPort, host, URL, requestHeaders, requestBody, responseHeaders, responseBody, protocol, method, contentType, four_tuple_hash, stack) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        insert_sql = "INSERT INTO APKDB.HTTP_urldecoded (id, packageName, srcAddr, srcPort, dstAddr, dstPort, host, URL, requestHeaders, requestBody, responseHeaders, responseBody, protocol, method, contentType, four_tuple_hash, stack) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
         db_cursor.executemany(insert_sql, http_message_list)
         db_connection.commit()
     except Exception as e:

@@ -15,10 +15,10 @@ gzip = re.compile(r"gzip")
 
 
 def get_db_connection(database_name) -> pymysql.Connection:
-    host = "10.10.103.147"
+    host = "*"
     port = 3306
-    user = "root"
-    password = "iiewlz666"
+    user = "*"
+    password = "*"
     db_connection = pymysql.connect(host=host, port=port, user=user, password=password, database=database_name)
     return db_connection
 

@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time : 2021/5/5 16:47
-# @Author : *
-# @Site :
-# @File : DBUtils.py
-# @Software: PyCharm
 import logging.config
 import logging.handlers
 import configparser

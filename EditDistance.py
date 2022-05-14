@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# encoding: utf-8
-
 import numpy as np
 
 def editDistance(word1, word2):

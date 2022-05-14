@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time : 2021/5/27 17:14 
-# @Author : *
-# @File : HTTP2Analyse.py 
-# @Software: PyCharm
-
 import logging.config
 import logging.handlers
 

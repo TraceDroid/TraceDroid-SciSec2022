@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time : 2021/4/21 13:03
-# @Author : *
-# @Site :
-# @File : testAlarm.py
-# @Software: PyCharm
 import logging
 import os
 import signal

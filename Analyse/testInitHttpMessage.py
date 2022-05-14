@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time : 2021/6/5 13:24 
-# @Author : *
-# @File : testInitHttpMessage.py 
-# @Software: PyCharm
 import sys
-
 import pymysql
 
 import DBUtils

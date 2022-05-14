@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time : 2021/5/8 10:40
-# @Author : *
-# @Site :
-# @File : main.py
-# @Software: PyCharm
 import configparser
 import os
 import platform

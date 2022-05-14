@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time : 2021/5/5 16:11
-# @Author : *
-# @Site :
-# @File : PcapExtractEngine.py
-# @Software: PyCharm
-
 import logging.config
 import logging.handlers
 import time

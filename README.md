@@ -5,19 +5,6 @@ TraceDroid is a lightweight framework for Android traffic collection and analysi
 TraceDroid hook the key functions responsible for sending HTTP/HTTPS requests in the Android framework
 layer and native layer, saving the corresponding call stacks, parsing network traffic and recovering files transmitted 
 in the traffic. Then build the connections among these three components (network traffic, call stack and files).
-#### requirements.txt
-
-Generating requirements.txt
-
-```
-pip freeze > requirements.txt
-```
-
-install dependencies in requirements.txt
-```
-pip install -r requirements.txt
-```
-
 
 #### Dependent tables
 

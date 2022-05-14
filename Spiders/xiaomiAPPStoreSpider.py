@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time : 2021/4/16 18:11
-# @Author : *
-# @Site :
-# @File : xiaomiAPPStoreSpider.py
-# @Software: PyCharm
 import logging.config
 import logging.handlers
 import os
